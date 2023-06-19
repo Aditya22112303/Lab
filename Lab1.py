@@ -1,6 +1,7 @@
 #Pre-Defined Function
 #Opening the given dataset
 file=open("C:/Users/Aditya Pratap Singh/Desktop/Data Analytics with Python and Mini Project/LAB WORK/bank.csv","r")  
+print(file)
 #Printing the header
 header=file.readline()
 print(header)
