@@ -5,12 +5,7 @@ file=open("C:/Users/Aditya Pratap Singh/Desktop/Data Analytics with Python and M
 #Printing the header
 header=file.readline()
 print(header)
-def countage():
-  data = readbanks()
-  age = []
-  for i in range(1,len(data)):
-    da = data[i].split(";")
-    age.append(da[0])
+#Count the number of  customers in each category 'marital'.  
 def maritalcount():
     data=file.readlines()
     maritalstat=[]
@@ -27,6 +22,7 @@ def maritalcount():
      marit=v
      print("{:<20} {:<15}".format(k,marit))
 maritalcount()
+#Age Histogram
 ag = []
 for i in file:
     ag.append(i[0])
